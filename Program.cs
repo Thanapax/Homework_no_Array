@@ -9,8 +9,8 @@
         int a = pass % 10 ; //หน่วย a = 0
         int b = ((pass % 100) - a) / 10 ; //สิบ ba = 00
         int c = ((pass % 1000) - (a + b)) / 100 ; //ร้อย cba = 000
-        int d = ((pass % 10000) - (a + b +c)) / 1000 ; //พัน d,cba = 0,000
-        int e = ((pass % 100000) - (a + b +c +d)) / 10000 ; //หมื่น ed,cba = 00,000
+        int d = ((pass % 10000) - (a + b + c)) / 1000 ; //พัน d,cba = 0,000
+        int e = ((pass % 100000) - (a + b +c + d)) / 10000 ; //หมื่น ed,cba = 00,000
         int f = ((pass % 1000000) - (a + b + c + d + e)) / 100000 ; //แสน fed,cba = 000,000
 
         switch (agen){
