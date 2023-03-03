@@ -20,6 +20,7 @@
                     Console.WriteLine("You are CIA!!!");
                 } else {
                     Console.WriteLine(false);
+                    Console.WriteLine("You aren't CIA!!!");
                 }
                 break;
 
@@ -29,6 +30,7 @@
                     Console.WriteLine("You are FBI!!!");
                 } else {
                     Console.WriteLine(false);
+                    Console.WriteLine("You aren't FBI!!!");
                 }
                 break;
 
@@ -38,6 +40,7 @@
                     Console.WriteLine("You are NSA!!!");
                 } else {
                     Console.WriteLine(false);
+                    Console.WriteLine("You aren't NSA!!!");
                 }
                 break;
 
